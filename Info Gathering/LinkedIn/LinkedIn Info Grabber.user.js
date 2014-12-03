@@ -60,15 +60,24 @@ border: 1px solid black; \
 } \
 table { \
 width:100%; \
+} \
+h2 { \
+font-family: Trebuchet MS; \
+font-size: 13pt; \
+} \
+b { \
+font-family: Arial; \
+font-size: 11pt; \
+} \
 </style> \
 <table> \
 <tr> \
 <th>Full Name</th> \
-<td>' + fullName + '</td> \
+<td><h2>' + fullName + '</h2></td> \
 </tr> \
 <tr> \
 <th>Position</th> \
-<td>' + position + '</td> \
+<td><b>' + position + '</b></td> \
 </tr> \
 <tr> \
 <th>Photo</th> \
@@ -81,4 +90,5 @@ width:100%; \
     '</td> </tr> \
 </table>'
 );
+
 
